@@ -1,7 +1,7 @@
 # react-demo
 
 > this is react vue+cil spa
-
+![Image text](./src/assets/react-demo.jpg)
 ## 环境安装
 
 > less 和 sass 配置
