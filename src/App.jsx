@@ -10,6 +10,7 @@ import './App.css'
 import { Provider } from 'react-redux'
 import store from '$redux/store'
 import Counter from 'components/Counter'
+import Home from './views/Home/Home'
 
 const App = () => (
   <div className='App'>
@@ -17,6 +18,7 @@ const App = () => (
       <img src={logo} className='App-logo shake-rotate' alt='logo' />
     </div>
     <Counter />
+    <Home />
     <Hello msg='Hello World' />
     <Router>
       {renderRoutes(routes)}

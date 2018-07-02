@@ -75,7 +75,8 @@ npm install fastclick --save
 const FastClick = require('fastclick')
 FastClick.attach(document.body) // 解决点击延迟问题
 ```
-> 为了兼容低版本浏览器，请引入· es6-promise
+
+> 为了兼容低版本浏览器，请引入 es6-promise
 
 ```sh
 npm install es6-promise --save
