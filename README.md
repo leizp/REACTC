@@ -1,13 +1,12 @@
 # react-demo
 
-> this is react vue+cil spa
+> this is react cli spa
 ![Image text](./src/assets/react-demo.jpg)
 ## 环境安装
 
 > less 和 sass 配置
 
 ``` bash
-// vue cil 内置配置了less和sass，只需要安装几个使用
 // sass 安装
 npm install node-sass --save-dev
 npm install sass-loader --save-dev
@@ -50,8 +49,7 @@ import 'lib-flexible/flexible.js'
 
 // 4、根据转换工具吧把px转为rem，（根元素设为设计图的1/10:750px---> fontSize: 75）
 
-// 5、尽量使用sass函数转换rem，或者在vue中配置px2rem-loader（请自己配置）
-
+// 5、尽量使用sass函数转换rem
 <style lang="scss">
   $browser-default-font-size: 75px !default; // sass 跟聚设计图定义默认rem更元素，设计图的1/10
   //sass px 转rem函数
